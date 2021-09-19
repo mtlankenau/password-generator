@@ -4,7 +4,7 @@ var generateBtn = document.querySelector("#generate");
 function generatePasswordLength(){
   // ask how long password length should be
   var passwordLength = prompt(
-    "How many long would you like your password to be? Please choose between no less than '8' characters and no more than '128' characters. (decimal numbers will be rounded down to an integer)"
+    "How long would you like your password to be? Please choose between no less than '8' characters and no more than '128' characters (decimal numbers will be rounded down to an integer)."
   );
   // all number inputs are rounded down to nearest whole integer
   passwordLength = Math.floor(passwordLength);
@@ -22,7 +22,7 @@ function generatePasswordLength(){
 function generateLowerCaseSelection(){
   // ask whether or not to include lower case letters
   var lowerCaseSelection = prompt(
-    "Would you like to include lower case letters? Answer 'Yes' or 'No'"
+    "Would you like to include 'lower case' letters? Answer 'Yes' or 'No'"
   );
   // convert response from prompt to lower case
   lowerCaseSelection = lowerCaseSelection.toLowerCase();
@@ -40,7 +40,7 @@ function generateLowerCaseSelection(){
 function generateUpperCaseSelection(){
   // ask whether or not to include upper case letters
   var upperCaseSelection = prompt(
-    "Would you like to include upper case letters? Answer 'Yes' or 'No'"
+    "Would you like to include 'upper case' letters? Answer 'Yes' or 'No'"
   );
   // convert response from prompt to lower case
   upperCaseSelection = upperCaseSelection.toLowerCase();
@@ -58,7 +58,7 @@ function generateUpperCaseSelection(){
 function generateNumericSelection(){
   // ask whether or not to include numbers
   var numericSelection = prompt(
-    "Would you like to include numbers? Answer 'Yes' or 'No'"
+    "Would you like to include 'numbers'? Answer 'Yes' or 'No'"
   );
   // convert response from prompt to lower case
   numericSelection = numericSelection.toLowerCase();
@@ -76,7 +76,7 @@ function generateNumericSelection(){
 function generateSymbolsSelection(){
   // ask whether or not to include symbols
   var symbolsSelection = prompt(
-    "Would you like to include symbols? Answer 'Yes' or 'No'"
+    "Would you like to include 'symbols'? Answer 'Yes' or 'No'"
   );
   // convert response from prompt to lower case
   symbolsSelection = symbolsSelection.toLowerCase();
