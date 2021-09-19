@@ -1,6 +1,6 @@
 # Password Generator
 
-<img src="readme-screenshot.jpg" width="580" height="380" alt="Example of randomly generated password">
+<img src="assets/images/readme-screenshot.jpg" width="580" height="380" alt="Example of randomly generated password">
 
 ## Background
 For one of our coding bootcamp's challenge assignments, we were tasked with using our JavaScript skills and knowledge of dynamic manipulation of DOM elements to create a functional random password generator.
